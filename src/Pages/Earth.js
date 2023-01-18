@@ -26,7 +26,7 @@ function Earth() {
 
                 <div className={"pt-5 text-center "}>
                     <div className={"planet"}>
-                        <Planet></Planet>
+                        <Planet className={""} image={"./Earth.glb"}></Planet>
                     </div>
                 </div>
 
