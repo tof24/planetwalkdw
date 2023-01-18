@@ -15,7 +15,7 @@ function Earth() {
 
             <div className={" container-fluid w-100"}>
 
-                <Album name={"Dark Side of The Moon"} artist={"Pink Floyd"} class={"dark"} cover={"./Earth/dark.jpg"}></Album>
+                <Link to="detail"><Album name={"Dark Side of The Moon"} artist={"Pink Floyd"} class={"dark"} cover={"./Earth/dark.jpg"}></Album></Link>
                 <Album name={"Space Oddity"} artist={"David Bowie"} class={"oddity"} cover={"./Earth/oddity.jpg"}></Album>
                 <Painting name={"Scuola di Atene"} artist={"Rafael Sanzio"} class={"scuola"} cover={"./Earth/Scuola.jpg"}></Painting>
                 <Text class={"poema"}></Text>
@@ -26,7 +26,7 @@ function Earth() {
 
                 <div className={"pt-5 text-center "}>
                     <div className={"planet"}>
-                        
+                        <Planet className={""} image={"./Earthi.glb"}></Planet>
                     </div>
                 </div>
 
