@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/planetwalkdw/static/css/main.448acad4.css",
-    "main.js": "/planetwalkdw/static/js/main.55aab59d.js",
+    "main.js": "/planetwalkdw/static/js/main.53b963e4.js",
     "static/js/787.d3f6efbf.chunk.js": "/planetwalkdw/static/js/787.d3f6efbf.chunk.js",
     "static/media/14.png": "/planetwalkdw/static/media/14.2a28afa0fc28be4c55e7.png",
     "static/media/13.png": "/planetwalkdw/static/media/13.f78d13d5ceb4b0406cc1.png",
     "static/media/logo.svg": "/planetwalkdw/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/planetwalkdw/index.html",
     "main.448acad4.css.map": "/planetwalkdw/static/css/main.448acad4.css.map",
-    "main.55aab59d.js.map": "/planetwalkdw/static/js/main.55aab59d.js.map",
+    "main.53b963e4.js.map": "/planetwalkdw/static/js/main.53b963e4.js.map",
     "787.d3f6efbf.chunk.js.map": "/planetwalkdw/static/js/787.d3f6efbf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.448acad4.css",
-    "static/js/main.55aab59d.js"
+    "static/js/main.53b963e4.js"
   ]
 }
