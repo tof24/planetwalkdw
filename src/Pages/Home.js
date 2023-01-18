@@ -11,7 +11,7 @@ import TextDemo from "./TextDemo";
 
 function Home() {
 
-    const [current, setCurrent] = useState("teste");
+    const [current, setCurrent] = useState("<Earth>");
     const [estilo, setEstilo] = useState("")
     const [page, setPage] = useState("1")
     const [days, setDays] = useState("365")
