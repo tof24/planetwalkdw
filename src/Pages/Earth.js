@@ -26,7 +26,7 @@ function Earth() {
 
                 <div className={"pt-5 text-center "}>
                     <div className={"planet"}>
-                        
+
                     </div>
                 </div>
 
