@@ -9,12 +9,7 @@ function App() {
 
 
   return (
-      <Router basename="/">
-        <Routes basename="/">
-          <Route exact path="/" element={<Home ></Home>} />
-          <Route path="/detail" element={<Detail></Detail>} />
-        </Routes>
-      </Router>
+    <Home></Home>
 
   );
 }
