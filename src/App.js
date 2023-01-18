@@ -9,7 +9,7 @@ function App() {
 
 
   return (
-    <Home></Home>
+      <div>213123213</div>
 
   );
 }
