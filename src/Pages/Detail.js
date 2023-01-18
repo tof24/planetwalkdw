@@ -10,13 +10,17 @@ function Detail() {
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
+        // Set up the headers for the API call
+        const headers = new Headers();
+        headers.append('Authorization', 'Basic ' + btoa('pistachio:toothsome'));
         // Make API call to WordPress site to retrieve posts
-        fetch('http://spaceuc.local/wp-json/wp/v2/posts')
+        fetch('https://considerate-survey.localsite.io/wp-json/wp/v2/posts', { headers: headers })
             .then(res => res.json())
             .then(data => setPosts(data));
+            console.log(posts);
     }, []);
 
-
+    console.log(posts);
 
     return (
 
